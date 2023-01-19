@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  misa.cukcuk.web:
+    image: ${DOCKER_REGISTRY-}misacukcukweb
+    build:
+      context: .
+      dockerfile: MISA.CukCuk.Web/Dockerfile
